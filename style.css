@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minimax(100px, auto);
+}
+
+h1{
+    color: yellow;
+    text-align: center;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.tatooine{
+    color: yellow;
+    
+    grid-column: 1;
+    grid-row: 2/5;
+}
+
+.newHope{
+    color: yellow;
+    
+}
+
+.xWing{
+    color: yellow;
+}
