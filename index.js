@@ -12,6 +12,10 @@ app.get('/style.css',function(req,res){
     res.sendFile(path.join(dirname + '/style.css')); 
 });
 
+app.get('https://fr.allfont.net/allfont.css?fonts=star-jedi',function(req,res){
+    res.sendFile(path.join(dirname + 'https://fr.allfont.net/allfont.css?fonts=star-jedi')); 
+});
+
 app.get('/swapi.js',function(req,res){
     res.sendFile(path.join(__dirname + '/swapi.js')); 
 });
